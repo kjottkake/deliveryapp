@@ -58,6 +58,30 @@ body {
     left: 270px;
 }
 
+.windshield {
+    height: 150px;
+    width: 15px;
+    position: absolute;
+    background-color: lightskyblue;
+    border-radius: 15px;
+    z-index: 1;
+    left: 390px;
+    top: 20%;
+}
+
+.window {
+    height: 130px;
+    width: 70px;
+    position: absolute;
+    background-color: lightskyblue;
+    border-radius: 15px;
+    z-index: 1;
+    left: 310px;
+    top: 20%;
+}
+
+
+
 .ground {
     height: 60px;
     width: 300px;
@@ -151,5 +175,11 @@ body {
     animation: carBumpy 1s linear 0s infinite normal none;
 }
 
+.window{
+    animation: carBumpy 1s linear 0s infinite normal none;
+}
 
+.windshield{
+    animation: carBumpy 1s linear 0s infinite normal none;
+}
 
