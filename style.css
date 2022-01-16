@@ -6,3 +6,150 @@ body {
     background-color: turquoise;
     text-align: center;
 }
+
+
+
+.car-body {
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    background-color: tomato;
+    border-radius: 25px;
+    /* border-radius: 10% / 50%; */
+}
+
+.wheel-front {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    top: 40%;
+    left: 25px;
+}
+
+.wheel-well-front {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    top: 43%;
+    left: 45px;
+}
+
+.wheel-back {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    top: 40%;
+    left: 250px;
+}
+
+.wheel-well-back {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    top: 43%;
+    left: 270px;
+}
+
+.ground {
+    height: 60px;
+    width: 300px;
+    border-radius: 50px;
+    background-color: rgb(39, 131, 122);
+    position: absolute;
+    top: 50%;
+    z-index: -1;
+}
+
+/* Copy this @keyframes block to your CSS*/
+@keyframes yourAnimation {
+    0.0%{
+        transform: translate(100px);
+        opacity: 1;
+    }
+    100%{
+        transform: translate(-100px);
+        opacity: 0;
+    }
+    4.7%{
+        transform: translate(100px);
+    }
+    49.8%{
+        transform: translate(0);
+        opacity: 1;
+    }
+    95.1%{
+        transform: translate(-100px);
+    }
+}
+
+
+/* Add the animation: property to whichever element you want to animate */
+.ground{
+    animation: yourAnimation 1s linear 0s infinite normal none;
+}
+
+/* Copy this @keyframes block to your CSS*/
+@keyframes carBumpy {
+    0.0%{
+    }
+    100%{
+    }
+    14.8%{
+        transform: translate(0, 10px);
+    }
+    49.6%{
+        transform: translate(0, -20px);
+    }
+    90.2%{
+        transform: translate(0, -10px);
+    }
+}
+
+@keyframes carBumpy2 {
+    0.0%{
+    }
+    100%{
+    }
+    14.8%{
+        transform: translate(0, 12px);
+    }
+    49.6%{
+        transform: translate(0, -22px);
+    }
+    90.2%{
+        transform: translate(0, -13px);
+    }
+}
+
+
+/* Add the animation: property to whichever element you want to animate */
+.car-body{
+    animation: carBumpy2 1s linear 0s infinite normal none;
+}
+
+.wheel-front{
+    animation: carBumpy 1s linear 0s infinite normal none;
+}
+
+.wheel-well-front{
+    animation: carBumpy 1s linear 0s infinite normal none;
+}
+
+.wheel-back{
+    animation: carBumpy 1s linear 0s infinite normal none;
+}
+
+.wheel-well-back{
+    animation: carBumpy 1s linear 0s infinite normal none;
+}
+
+
+
