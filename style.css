@@ -15,6 +15,7 @@ body {
     position: absolute;
     background-color: tomato;
     border-radius: 25px;
+    filter: drop-shadow(100px 0 0 rgb(191, 59, 36));
     /* border-radius: 10% / 50%; */
 }
 
@@ -24,6 +25,7 @@ body {
     position: absolute;
     background-color: black;
     border-radius: 50%;
+    filter: drop-shadow(10px 0 0 rgb(85, 85, 85));
     top: 40%;
     left: 25px;
 }
@@ -34,6 +36,7 @@ body {
     position: absolute;
     background-color: white;
     border-radius: 50%;
+    filter: drop-shadow(-5px 0 0 rgb(79, 87, 123));
     top: 43%;
     left: 45px;
 }
@@ -44,6 +47,7 @@ body {
     position: absolute;
     background-color: black;
     border-radius: 50%;
+    filter: drop-shadow(10px 0 0 rgb(85, 85, 85));
     top: 40%;
     left: 250px;
 }
@@ -54,6 +58,7 @@ body {
     position: absolute;
     background-color: white;
     border-radius: 50%;
+    filter: drop-shadow(-5px 0 0 rgb(79, 87, 123));
     top: 43%;
     left: 270px;
 }
