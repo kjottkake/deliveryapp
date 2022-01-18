@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: turquoise;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+}
+
+header {
+    padding-top: 12%;
+    text-align: center;
+}

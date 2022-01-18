@@ -41,6 +41,17 @@ body {
     left: 45px;
 }
 
+.wheelhub-front {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    background-color: pink;
+    border-radius: 50%;
+    filter: drop-shadow(-5px 0 0 rgb(79, 87, 123));
+    top: 45%;
+    left: 60px;
+}
+
 .wheel-back {
     height: 100px;
     width: 100px;
@@ -160,7 +171,7 @@ body {
 
 
 /* Add the animation: property to whichever element you want to animate */
-.car-body{
+/* .car-body{
     animation: carBumpy2 1s linear 0s infinite normal none;
 }
 
@@ -169,6 +180,10 @@ body {
 }
 
 .wheel-well-front{
+    animation: carBumpy 1s linear 0s infinite normal none;
+}
+
+.wheelhub-front{
     animation: carBumpy 1s linear 0s infinite normal none;
 }
 
@@ -187,4 +202,4 @@ body {
 .windshield{
     animation: carBumpy 1s linear 0s infinite normal none;
 }
-
+ */
