@@ -9,6 +9,10 @@ Friday 21 Jan 2022
 			[]Truck	{Karina}
 			[]Bed (packages and crap) {Håvard}
 		[]Animation {Jason}
+			[]Palm Trees
+			[]Clouds
+			[]Parallax Effect
+			
 
 
 []Individual pages
