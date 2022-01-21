@@ -1,0 +1,37 @@
+Schedule for rest of project:
+
+Friday 21 Jan 2022
+[]Main page
+	[]Divide up tasks
+		3 components:
+		[]UI - text, layout {Jason}
+		[]Graphics: Truck
+			[]Truck	{Karina}
+			[]Bed (packages and crap) {Håvard}
+		[]Animation {Jason}
+
+
+[]Individual pages
+	[]Jason's page
+	[]Karina's page
+	[]Håvard's page
+
+
+Tuesday 25 Jan 2022
+[]Mainpage car version 1.0
+
+Wednesday 26 Jan 2022
+[]Individual pages version 1.0 done
+	[]Jason's page
+	[]Karina's page
+	[]Håvard's page
+
+Monday 31 Jan 2022
+[]Part1: Mainpage
+[]Part2: Individual Delivery
+	[]Jason's page
+	[]Karina's page
+	[]Håvard's page
+
+
+
