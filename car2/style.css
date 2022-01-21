@@ -11,3 +11,41 @@ header {
     text-align: center;
     filter: drop-shadow(2px 2px 2px black);
 }
+
+
+/* cloud element */
+.cloud {
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    background-color: #79dafa;
+    border-radius: 200px;
+}
+
+.cloud2 {
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    background-color: #79dafa;
+    border-radius: 300px;
+    bottom: 100px;
+}
+
+/* Copy this @keyframes block to your CSS*/
+@keyframes rightToLeft {
+    0.0%{
+        transform: translate(2000px);
+    }
+    100%{
+        transform: translate(-500px);
+    }
+}
+
+/* Add the animation: property to whichever element you want to animate */
+.cloud{
+    animation: rightToLeft  3s ease 0s infinite normal none;
+} 
+
+.cloud2{
+    animation: rightToLeft  3s ease 0s infinite normal none;
+} 
