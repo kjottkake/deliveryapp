@@ -57,6 +57,43 @@ header {
     display: block;
 }
 
+
+.tree-trunk {
+    width: 20px;
+    height: 80px;
+    position: absolute;
+    background-color: rgb(142, 70, 25);
+    bottom: 22%;
+    left: 440px;
+}
+
+.tree-top {
+    width: 100px;
+    height: 320px;
+    border-radius: 100px;
+    position: absolute;
+    background-color: lightgreen;
+    left: 400px;
+}
+
+
+.tree-trunk2 {
+    width: 20px;
+    height: 120px;
+    position: absolute;
+    background-color: rgb(142, 70, 25);
+    bottom: 22%;
+    left: 730px;
+}
+
+.tree-top2 {
+    width: 80px;
+    height: 280px;
+    border-radius: 100px;
+    position: absolute;
+    background-color: lightgreen;
+    left: 700px;
+}
 /* Copy this @keyframes block to your CSS*/
 @keyframes rightToLeft {
     0.0%{
@@ -68,7 +105,7 @@ header {
 }
 
 /* Add the animation: property to whichever element you want to animate */
-/* .cloud{
+.cloud{
     animation: rightToLeft  4s ease 0s infinite normal none;
 } 
 
@@ -78,4 +115,20 @@ header {
 
 .cloud3{
     animation: rightToLeft  4s ease 0s infinite normal none;
-}  */
+} 
+
+.tree-top {
+     animation: rightToLeft  3s ease 0s infinite normal none;
+}
+
+.tree-trunk {
+     animation: rightToLeft  3s ease 0s infinite normal none;
+}
+
+.tree-top2 {
+     animation: rightToLeft  3s ease 0s infinite normal none;
+}
+
+.tree-trunk2 {
+     animation: rightToLeft  3s ease 0s infinite normal none;
+}
