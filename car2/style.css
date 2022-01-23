@@ -1,3 +1,8 @@
+:root {
+    /* clouds */
+  --cloud: #79dafa;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -7,7 +12,7 @@ body {
 }
 
 header {
-    padding-top: 12%;
+    padding-top: 2%;
     text-align: center;
     filter: drop-shadow(2px 2px 2px black);
 }
@@ -18,9 +23,9 @@ header {
     height: 25px;
     width: 100px;
     position: absolute;
-    background-color: #79dafa;
+    background-color: var(--cloud);
     border-radius: 200px;
-    bottom: 100px;
+    bottom: 400px;
     left: -50px;
 }
 
@@ -28,18 +33,18 @@ header {
     height: 100px;
     width: 200px;
     position: absolute;
-    background-color: #79dafa;
+    background-color: var(--cloud);
     border-radius: 300px;
-    bottom: 100px;
+    bottom: 400px;
 }
 
 .cloud3 {
     height: 50px;
     width: 150px;
     position: absolute;
-    background-color: #79dafa;
+    background-color: var(--cloud);
     border-radius: 300px;
-    bottom: 100px;
+    bottom: 400px;
     left: 150px;
 }
 
