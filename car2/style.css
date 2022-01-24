@@ -64,7 +64,7 @@ header {
     position: absolute;
     background-color: rgb(142, 70, 25);
     bottom: 22%;
-    left: 440px;
+    left: 40px;
 }
 
 .tree-top {
@@ -73,7 +73,6 @@ header {
     border-radius: 100px;
     position: absolute;
     background-color: lightgreen;
-    left: 400px;
 }
 
 
@@ -100,35 +99,35 @@ header {
         transform: translate(2000px);
     }
     100%{
-        transform: translate(-500px);
+        transform: translate(-800px);
     }
 }
 
 /* Add the animation: property to whichever element you want to animate */
 .cloud{
-    animation: rightToLeft  4s ease 0s infinite normal none;
+    animation: rightToLeft  5s ease 0s infinite normal none;
 } 
 
 .cloud2{
-    animation: rightToLeft  4s ease 0s infinite normal none;
+    animation: rightToLeft  5s ease 0s infinite normal none;
 } 
 
 .cloud3{
-    animation: rightToLeft  4s ease 0s infinite normal none;
+    animation: rightToLeft  5s ease 0s infinite normal none;
 } 
 
 .tree-top {
-     animation: rightToLeft  3s ease 0s infinite normal none;
+     animation: rightToLeft  4s ease 0s infinite normal none;
 }
 
 .tree-trunk {
-     animation: rightToLeft  3s ease 0s infinite normal none;
+     animation: rightToLeft  4s ease 0s infinite normal none;
 }
 
 .tree-top2 {
-     animation: rightToLeft  3s ease 0s infinite normal none;
+     animation: rightToLeft  4s ease 0s infinite normal none;
 }
 
 .tree-trunk2 {
-     animation: rightToLeft  3s ease 0s infinite normal none;
+     animation: rightToLeft  4s ease 0s infinite normal none;
 }
