@@ -93,6 +93,16 @@ header {
     background-color: lightgreen;
     left: 700px;
 }
+
+/* truck code to be replaced */
+.car {
+    width: 400px;
+    height: 200px;
+    left: 200px;
+    bottom: 22%;
+    position: absolute;
+    background-color: red;
+}
 /* Copy this @keyframes block to your CSS*/
 @keyframes rightToLeft {
     0.0%{
@@ -105,29 +115,50 @@ header {
 
 /* Add the animation: property to whichever element you want to animate */
 .cloud{
-    animation: rightToLeft  5s ease 0s infinite normal none;
+    animation: rightToLeft  5s linear 0s infinite normal none;
 } 
 
 .cloud2{
-    animation: rightToLeft  5s ease 0s infinite normal none;
+    animation: rightToLeft  5s linear 0s infinite normal none;
 } 
 
 .cloud3{
-    animation: rightToLeft  5s ease 0s infinite normal none;
+    animation: rightToLeft  5s linear 0s infinite normal none;
 } 
 
 .tree-top {
-     animation: rightToLeft  4s ease 0s infinite normal none;
+     animation: rightToLeft  4s linear 0s infinite normal none;
 }
 
 .tree-trunk {
-     animation: rightToLeft  4s ease 0s infinite normal none;
+     animation: rightToLeft  4s linear 0s infinite normal none;
 }
 
 .tree-top2 {
-     animation: rightToLeft  4s ease 0s infinite normal none;
+     animation: rightToLeft  4s linear 0s infinite normal none;
 }
 
 .tree-trunk2 {
-     animation: rightToLeft  4s ease 0s infinite normal none;
+     animation: rightToLeft  4s linear 0s infinite normal none;
+}
+
+/* Copy this @keyframes block to your CSS*/
+@keyframes carBounce {
+    0.0%{
+    }
+    100%{
+        transform: rotate(-2deg);
+    }
+    19.9%{
+        transform: translate(0, 10px) rotate(-4deg);
+    }
+    49.8%{
+        transform: translate(0, -5px) rotate(8deg);
+    }
+}
+
+
+/* Add the animation: property to whichever element you want to animate */
+.car{
+    animation: carBounce 1s linear 0s infinite normal none;
 }
