@@ -203,3 +203,19 @@ body {
     animation: carBumpy 1s linear 0s infinite normal none;
 }
  */
+
+
+ /* Copy this @keyframes block to your CSS*/
+@keyframes moveToTheRight {
+    0.0%{
+    }
+    100%{
+        transform: translate(400px);
+    }
+}
+
+
+/* Add the animation: property to whichever element you want to animate */
+.car-body{
+    animation: moveToTheRight 3s ease 0s infinite normal none;
+}

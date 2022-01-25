@@ -5,13 +5,13 @@ Friday 21 Jan 2022
 	[]Divide up tasks
 		3 components:
 		[]UI - text, layout {Jason}
-		[]Graphics: Truck
-			[]Truck	{Karina}
-			[]Bed (packages and crap) {Håvard}
+		[x]Graphics: Truck
+			[x]Truck	{Karina}
+			[x]Bed (packages and crap) {Håvard}
 		[]Animation {Jason}
-			[]Palm Trees
-			[]Clouds
-			[]Parallax Effect
+			[x]Palm Trees
+			[x]Clouds
+			[x]Parallax Effect
 			
 
 
@@ -22,9 +22,15 @@ Friday 21 Jan 2022
 
 
 Tuesday 25 Jan 2022
-[]Mainpage car version 1.0
+[x]Mainpage car version 1.0
+
 
 Wednesday 26 Jan 2022
+[] Merge Code to Master repo (Jason)
+
+
+
+Thursday 27 Jan 2022
 []Individual pages version 1.0 done
 	[]Jason's page
 	[]Karina's page
