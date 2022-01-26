@@ -1,3 +1,8 @@
+:root {
+    /* clouds */
+  --cloud: #79dafa;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -7,7 +12,7 @@ body {
 }
 
 header {
-    padding-top: 12%;
+    padding-top: 2%;
     text-align: center;
     filter: drop-shadow(2px 2px 2px black);
 }
@@ -691,4 +696,148 @@ transform-style: preserve-3d;
   margin-top: 77px;
   transform: rotateY(40deg);
   border-radius: 0px 0px 3px 0px;
+
+/* cloud element */
+.cloud {
+    height: 25px;
+    width: 100px;
+    position: absolute;
+    background-color: var(--cloud);
+    border-radius: 200px;
+    bottom: 400px;
+    left: -50px;
+}
+
+.cloud2 {
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    background-color: var(--cloud);
+    border-radius: 300px;
+    bottom: 400px;
+}
+
+.cloud3 {
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    background-color: var(--cloud);
+    border-radius: 300px;
+    bottom: 400px;
+    left: 150px;
+}
+
+.ground {
+    width: 100%;
+    height: 22%;
+    position: absolute;
+    top: 78%;
+    background-color: rgb(187, 240, 252);
+    display: block;
+}
+
+
+.tree-trunk {
+    width: 20px;
+    height: 80px;
+    position: absolute;
+    background-color: rgb(142, 70, 25);
+    bottom: 22%;
+    left: 40px;
+}
+
+.tree-top {
+    width: 100px;
+    height: 320px;
+    border-radius: 100px;
+    position: absolute;
+    background-color: lightgreen;
+}
+
+
+.tree-trunk2 {
+    width: 20px;
+    height: 120px;
+    position: absolute;
+    background-color: rgb(142, 70, 25);
+    bottom: 22%;
+    left: 730px;
+}
+
+.tree-top2 {
+    width: 80px;
+    height: 280px;
+    border-radius: 100px;
+    position: absolute;
+    background-color: lightgreen;
+    left: 700px;
+}
+
+/* truck code to be replaced */
+.car {
+    width: 400px;
+    height: 200px;
+    left: 200px;
+    bottom: 22%;
+    position: absolute;
+    background-color: red;
+}
+/* Copy this @keyframes block to your CSS*/
+@keyframes rightToLeft {
+    0.0%{
+        transform: translate(2000px);
+    }
+    100%{
+        transform: translate(-800px);
+    }
+}
+
+/* Add the animation: property to whichever element you want to animate */
+.cloud{
+    animation: rightToLeft  5s linear 0s infinite normal none;
+} 
+
+.cloud2{
+    animation: rightToLeft  5s linear 0s infinite normal none;
+} 
+
+.cloud3{
+    animation: rightToLeft  5s linear 0s infinite normal none;
+} 
+
+.tree-top {
+     animation: rightToLeft  4s linear 0s infinite normal none;
+}
+
+.tree-trunk {
+     animation: rightToLeft  4s linear 0s infinite normal none;
+}
+
+.tree-top2 {
+     animation: rightToLeft  4s linear 0s infinite normal none;
+}
+
+.tree-trunk2 {
+     animation: rightToLeft  4s linear 0s infinite normal none;
+}
+
+/* Copy this @keyframes block to your CSS*/
+@keyframes carBounce {
+    0.0%{
+    }
+    100%{
+        transform: rotate(-2deg);
+    }
+    19.9%{
+        transform: translate(0, 10px) rotate(-4deg);
+    }
+    49.8%{
+        transform: translate(0, -5px) rotate(8deg);
+    }
+}
+
+
+/* Add the animation: property to whichever element you want to animate */
+.car{
+    animation: carBounce 1s linear 0s infinite normal none;
 }
