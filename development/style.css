@@ -1,6 +1,9 @@
 :root {
-    /* clouds */
+    /* clouds color */
   --cloud: #79dafa;
+   /* box color */
+  --box: #C2B280;
+  --box-shadow: #A7947A;
 }
 
 body {
@@ -49,7 +52,7 @@ margin: 0 auto;
   width: 50px;
 }
 
-.package11{
+.package-wrapper{
   height: 100px;
   width: 100px;
   transform-style: preserve-3d;
@@ -58,14 +61,14 @@ margin: 0 auto;
 }
 
 .front1{
-  background: #C2B280;
+  background: var(--box);
   height: 50px;
   transform: rotateY(20deg) translateZ(100px);
   border: solid black 1px;
 }
 
 .right1{
-  background: #A7947A;
+  background: var(--box-shadow);
   transform: rotateY(70deg) translateZ(70px);
   border: solid black 1px;
   height: 50px;
@@ -78,30 +81,21 @@ margin: 0 auto;
   height: 120px;
 }
 
-
 .face2{
   position: absolute;
   height: 100px;
   width: 50px;
 }
 
-.package22{
-  height: 100px;
-  width: 100px;
-  transform-style: preserve-3d;
-  transform: translateZ(100px) rotateX(0deg) rotateY(0deg);
-  position: relative;
-}
-
 .front2{
-  background: #C2B280;
+  background: var(--box);
   height: 50px;
   transform: rotateY(20deg) translateZ(100px);
   border: solid black 1px;
 }
 
 .right2{
-  background: #A7947A;
+  background: var(--box-shadow);
   transform: rotateY(70deg) translateZ(70px);
   border: solid black 1px;
   height: 50px;
@@ -121,23 +115,16 @@ margin: 0 auto;
   width: 50px;
 }
 
-.package33{
-  height: 100px;
-  width: 100px;
-  transform-style: preserve-3d;
-  transform: translateZ(100px) rotateX(0deg) rotateY(0deg);
-  position: relative;
-}
 
 .front3{
-  background: #C2B280;
+  background: var(--box);
   height: 50px;
   transform: rotateY(20deg) translateZ(100px);
   border: solid black 1px;
 }
 
 .right3{
-  background: #A7947A;
+  background: var(--box-shadow);
   transform: rotateY(70deg) translateZ(70px);
   border: solid black 1px;
   height: 50px;
@@ -157,23 +144,16 @@ margin: 0 auto;
   width: 50px;
 }
 
-.package44{
-  height: 100px;
-  width: 100px;
-  transform-style: preserve-3d;
-  transform: translateZ(100px) rotateX(0deg) rotateY(0deg);
-  position: relative;
-}
 
 .front4{
-  background: #C2B280;
+  background: var(--box);
   height: 50px;
   transform: rotateY(20deg) translateZ(100px);
   border: solid black 1px;
 }
 
 .right4{
-  background: #A7947A;
+  background: var(--box-shadow);
   transform: rotateY(70deg) translateZ(70px);
   border: solid black 1px;
   height: 50px;
@@ -193,23 +173,16 @@ margin: 0 auto;
   width: 50px;
 }
 
-.package55{
-  height: 100px;
-  width: 100px;
-  transform-style: preserve-3d;
-  transform: translateZ(100px) rotateX(0deg) rotateY(0deg);
-  position: relative;
-}
 
 .front5{
-  background: #C2B280;
+  background: var(--box);
   height: 50px;
   transform: rotateY(20deg) translateZ(100px);
   border: solid black 1px;
 }
 
 .right5{
-  background: #A7947A;
+  background: var(--box-shadow);
   transform: rotateY(70deg) translateZ(70px);
   border: solid black 1px;
   height: 50px;
@@ -229,23 +202,16 @@ margin: 0 auto;
   width: 50px;
 }
 
-.package66{
-  height: 100px;
-  width: 100px;
-  transform-style: preserve-3d;
-  transform: translateZ(100px) rotateX(0deg) rotateY(0deg);
-  position: relative;
-}
 
 .front6{
-  background: #C2B280;
+  background: var(--box);
   height: 50px;
   transform: rotateY(20deg) translateZ(100px);
   border: solid black 1px;
 }
 
 .right6{
-  background: #A7947A;
+  background: var(--box-shadow);
   transform: rotateY(70deg) translateZ(70px);
   border: solid black 1px;
   height: 50px;
@@ -265,23 +231,16 @@ margin: 0 auto;
   width: 50px;
 }
 
-.package77{
-  height: 100px;
-  width: 100px;
-  transform-style: preserve-3d;
-  transform: translateZ(100px) rotateX(0deg) rotateY(0deg);
-  position: relative;
-}
 
 .front7{
-  background: #C2B280;
+  background: var(--box);
   height: 50px;
   transform: rotateY(20deg) translateZ(100px);
   border: solid black 1px;
 }
 
 .right7{
-  background: #A7947A;
+  background: var(--box-shadow);
   transform: rotateY(70deg) translateZ(70px);
   border: solid black 1px;
   height: 50px;
@@ -301,23 +260,16 @@ margin: 0 auto;
   width: 50px;
 }
 
-.package88{
-  height: 100px;
-  width: 100px;
-  transform-style: preserve-3d;
-  transform: translateZ(100px) rotateX(0deg) rotateY(0deg);
-  position: relative;
-}
 
 .front8{
-  background: #C2B280;
+  background: var(--box);
   height: 50px;
   transform: rotateY(20deg) translateZ(100px);
   border: solid black 1px;
 }
 
 .right8{
-  background: #A7947A;
+  background: var(--box-shadow);
   transform: rotateY(70deg) translateZ(70px);
   border: solid black 1px;
   height: 50px;
@@ -337,23 +289,16 @@ margin: 0 auto;
   width: 50px;
 }
 
-.package99{
-  height: 100px;
-  width: 100px;
-  transform-style: preserve-3d;
-  transform: translateZ(100px) rotateX(0deg) rotateY(0deg);
-  position: relative;
-}
-
+/* end here 351 */
 .front9{
-  background: #C2B280;
+  background: var(--box);
   height: 50px;
   transform: rotateY(20deg) translateZ(100px);
   border: solid black 1px;
 }
 
 .right9{
-  background: #A7947A;
+  background: var(--box-shadow);
   transform: rotateY(70deg) translateZ(70px);
   border: solid black 1px;
   height: 50px;
@@ -382,14 +327,14 @@ margin: 0 auto;
 }
 
 .front10{
-  background: #C2B280;
+  background: var(--box);
   height: 50px;
   transform: rotateY(20deg) translateZ(100px);
   border: solid black 1px;
 }
 
 .right10{
-  background: #A7947A;
+  background: var(--box-shadow);
   transform: rotateY(70deg) translateZ(70px);
   border: solid black 1px;
   height: 50px;
@@ -696,6 +641,7 @@ transform-style: preserve-3d;
   margin-top: 77px;
   transform: rotateY(40deg);
   border-radius: 0px 0px 3px 0px;
+}
 
 /* cloud element */
 .cloud {
@@ -793,7 +739,7 @@ transform-style: preserve-3d;
 }
 
 /* Add the animation: property to whichever element you want to animate */
-.cloud{
+/* .cloud{
     animation: rightToLeft  5s linear 0s infinite normal none;
 } 
 
@@ -819,7 +765,7 @@ transform-style: preserve-3d;
 
 .tree-trunk2 {
      animation: rightToLeft  4s linear 0s infinite normal none;
-}
+} */
 
 /* Copy this @keyframes block to your CSS*/
 @keyframes carBounce {
@@ -838,6 +784,6 @@ transform-style: preserve-3d;
 
 
 /* Add the animation: property to whichever element you want to animate */
-.car{
+/* .car{
     animation: carBounce 1s linear 0s infinite normal none;
-}
+} */
