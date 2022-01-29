@@ -4,6 +4,11 @@
    /* box color */
   --box: #C2B280;
   --box-shadow: #A7947A;
+  /* spaces in between palettes */
+  --spacer: #7a5b3b;
+
+  /* border variable */
+  --border: 1px solid black;
 }
 
 body {
@@ -12,6 +17,7 @@ body {
     background-color: turquoise;
     font-family: 'Roboto', sans-serif;
     color: whitesmoke;
+    /* background-color: pink; */
 }
 
 header {
@@ -33,18 +39,9 @@ header {
 }
 
 .container{
-margin: 0 auto;
-  width: 100px;
-  height: 100px;    
-}
-
-.package1 {
-  grid-row: 3;
-  grid-column: 1;
   width: 150px;
-  height: 120px;
-}
-
+  height: 120px;  
+  }
 
 .box{
   position: absolute;
@@ -60,100 +57,57 @@ margin: 0 auto;
   position: relative;
 }
 
-
-.front1{
-  background: var(--box);
-  height: 50px;
-  transform: rotateY(20deg) translateZ(100px);
-  border: solid black 1px;
-}
-
-.right1{
-  background: var(--box-shadow);
-  transform: rotateY(70deg) translateZ(70px);
-  border: solid black 1px;
-  height: 50px;
+.package1 {
+  grid-row: 3;
+  grid-column: 1;
 }
 
 .package2 {
   grid-row: 3;
   grid-column: 2;
-  width: 150px;
-  height: 120px;
-}
-
-.front2{
-  background: var(--box);
-  height: 50px;
-  transform: rotateY(20deg) translateZ(100px);
-  border: solid black 1px;
-}
-
-.right2{
-  background: var(--box-shadow);
-  transform: rotateY(70deg) translateZ(70px);
-  border: solid black 1px;
-  height: 50px;
 }
 
 .package3 {
   grid-row: 3;
   grid-column: 3;
-  width: 150px;
-  height: 120px;
 }
 
 .package4 {
   grid-row: 3;
   grid-column: 4;
-  width: 150px;
-  height: 120px;
 }
 
 .package5 {
   grid-row: 2;
   grid-column: 1;
-  width: 150px;
-  height: 120px;
 }
 
 .package6 {
   grid-row: 2;
   grid-column: 2;
-  width: 150px;
-  height: 120px;
 }
 
 .package7 {
   grid-row: 2;
   grid-column: 3;
-  width: 150px;
-  height: 120px;
 }
 
 .package8 {
   grid-row: 2;
   grid-column: 4;
-  width: 150px;
-  height: 120px;
 }
 
 .package9 {
   grid-row: 1;
   grid-column: 2;
-  width: 150px;
-  height: 120px;
 }
 
 .package10 {
   grid-row: 1;
   grid-column: 3;
-  width: 150px;
-  height: 120px;
 }
 
-
-.package10{
+.package10 {
   height: 100px;
   width: 100px;
   transform-style: preserve-3d;
@@ -166,13 +120,13 @@ margin: 0 auto;
   background: var(--box);
   height: 50px;
   transform: rotateY(20deg) translateZ(100px);
-  border: solid black 1px;
+  border: var(--border);
 }
 
 .rightface{
   background: var(--box-shadow);
   transform: rotateY(70deg) translateZ(70px);
-  border: solid black 1px;
+  border: var(--border);
   height: 50px;
 }
 
@@ -188,7 +142,7 @@ this is the start of the pallette */
   height: 30px;
   position: relative;
   margin-top: -68px;
-  border: solid black 1px;
+  border: var(--border);
    transform-style: preserve-3d;
   transform: translateZ(100px) rotateX(0deg) rotateY(0deg);
 }
@@ -207,44 +161,34 @@ this is the start of the pallette */
 }
 
 .rightp{
-  border: solid black 1px;
   background: #986f3a;
   transform: rotateY(70deg) translateZ(202px);
-  border: solid black 1px;
+  border: var(--border);
   height: 30px;
   margin-top: -1px;
 }
 
-.space1{
-  background:#7a5b3b;
+.spacer{
+  background:var(--spacer);
   width: 40px;
   height: 25px;
-  margin-left: 13px;
   margin-top: 2px
+}
+
+.space1{
+  margin-left: 13px;
 }
 
 .space2{
-  background:#7a5b3b;
-  width: 40px;
-  height: 25px;
   margin-left: 50px;
-  margin-top: 2px
 }
 
 .space3{
-  background:#7a5b3b;
-  width: 40px;
-  height: 25px;
   margin-left: 50px;
-  margin-top: 2px
 }
 
 .space4{
-  background:#7a5b3b;
-  width: 40px;
-  height: 25px;
   margin-left: 53px;
-  margin-top: 2px;
 }
 
 .bed{
@@ -263,6 +207,7 @@ this is the start of the pallette */
  margin-top: -50px; 
 }
 
+/* carriage on bottom of truck */
 .black{
   width: 440px;
   height: 40px;
@@ -290,13 +235,16 @@ this is the start of the pallette */
   margin-top: -45px;
 }
 
-.halfsquareb{
+.guard{
   width: 65px;
     height: 25px; 
     border-top-left-radius: 140px;  
     border-top-right-radius: 140px; 
     border: 15px solid #3f3f3f;
     border-bottom: 0;
+}
+
+.guardback{
     margin-left: 332px;
   margin-top: -45px;
 }
@@ -321,13 +269,7 @@ this is the start of the pallette */
   position: absolute;
 }
 
-.halfsquaref{
-  width: 65px;
-    height: 25px; 
-    border-top-left-radius: 140px;  
-    border-top-right-radius: 140px; 
-    border: 15px solid #3f3f3f;
-    border-bottom: 0;
+.guardfront{
     margin-left: 595px;
   margin-top: -62px;
   position: absolute;
