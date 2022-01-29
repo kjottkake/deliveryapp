@@ -46,7 +46,7 @@ margin: 0 auto;
 }
 
 
-.face1{
+.box{
   position: absolute;
   height: 100px;
   width: 50px;
@@ -82,12 +82,6 @@ margin: 0 auto;
   height: 120px;
 }
 
-.face2{
-  position: absolute;
-  height: 100px;
-  width: 50px;
-}
-
 .front2{
   background: var(--box);
   height: 50px;
@@ -109,25 +103,11 @@ margin: 0 auto;
   height: 120px;
 }
 
-
-.face3{
-  position: absolute;
-  height: 100px;
-  width: 50px;
-}
-
 .package4 {
   grid-row: 3;
   grid-column: 4;
   width: 150px;
   height: 120px;
-}
-
-
-.face4{
-  position: absolute;
-  height: 100px;
-  width: 50px;
 }
 
 .package5 {
@@ -137,25 +117,11 @@ margin: 0 auto;
   height: 120px;
 }
 
-
-.face5{
-  position: absolute;
-  height: 100px;
-  width: 50px;
-}
-
 .package6 {
   grid-row: 2;
   grid-column: 2;
   width: 150px;
   height: 120px;
-}
-
-
-.face6{
-  position: absolute;
-  height: 100px;
-  width: 50px;
 }
 
 .package7 {
@@ -165,13 +131,6 @@ margin: 0 auto;
   height: 120px;
 }
 
-
-.face7{
-  position: absolute;
-  height: 100px;
-  width: 50px;
-}
-
 .package8 {
   grid-row: 2;
   grid-column: 4;
@@ -179,25 +138,11 @@ margin: 0 auto;
   height: 120px;
 }
 
-
-.face8{
-  position: absolute;
-  height: 100px;
-  width: 50px;
-}
-
 .package9 {
   grid-row: 1;
   grid-column: 2;
   width: 150px;
   height: 120px;
-}
-
-
-.face9{
-  position: absolute;
-  height: 100px;
-  width: 50px;
 }
 
 .package10 {
@@ -208,12 +153,6 @@ margin: 0 auto;
 }
 
 
-.face10{
-  position: absolute;
-  height: 100px;
-  width: 50px;
-}
-
 .package10{
   height: 100px;
   width: 100px;
@@ -222,8 +161,7 @@ margin: 0 auto;
   position: relative;
 }
 
-/* 363 lines of code */
-
+/* the fronts of the boxes */
 .frontface{
   background: var(--box);
   height: 50px;
@@ -238,6 +176,9 @@ margin: 0 auto;
   height: 50px;
 }
 
+
+/* palett on the truck
+this is the start of the pallette */
 
 .palle {
   width: 224px;
