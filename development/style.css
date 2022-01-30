@@ -565,10 +565,10 @@ transform-style: preserve-3d;
         transform: rotate(-2deg);
     }
     19.9%{
-        transform: translate(0, 10px) rotate(-4deg);
+        transform: translate(0, 5px) rotate(-4deg);
     }
     49.8%{
-        transform: translate(0, -5px) rotate(8deg);
+        transform: translate(0, -2px) rotate(8deg);
     }
 }
 
