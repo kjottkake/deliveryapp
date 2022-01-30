@@ -15,6 +15,7 @@
     --dark-line-color: #424242;
     --top-line-color: #a3a0a0;
     --nth-child-color: #d306ea;
+    --groundcolor: #4e4e4e;
   }
 
  div h1 {
@@ -782,4 +783,139 @@ div > .Hinn1{
 }
 
 /*Jason css below*/
+.jcontent {
+  width:40%;
+  margin: auto;
+  padding-top: 12%;
+}
+
+/* link settings */
+a {
+  text-decoration: none;
+  color: #1b1b1b;
+}
+
+a:hover {
+  color: lightgreen;
+}
+
+a:active {
+  color: lightgoldenrodyellow;
+} 
+
+a:visited {
+  color: violet;
+}
+li{
+  list-style-type: none;
+  padding: 12px;
+}
+
+li:before {
+  height: 35px;
+  width: 35px;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  border-radius: 50%;
+  display: inline-block;
+  content: '';
+  vertical-align: middle;
+  position: relative;
+  margin-right: 12px;
+}
+
+/* boxes stylings */
+.jbox {
+  width: 400px;
+  height: 200px;
+  transform-style: preserve-3d;
+  transform:rotateX(-45deg) rotateY(-45deg);
+  position: relative;
+  top: 200px;
+  /* border: 1px solid red; */
+}
+
+.jboxface {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+}
+
+.jboxleft {
+  background: var(--groundcolor);
+  transform: rotateY(0deg) translateZ(300px);
+  height: 20px;
+  width: 400px;
+}
+
+.jboxright {
+  background: var(--groundcolor);
+  transform: rotateY(90deg) translateZ(100px);
+  height: 20px;
+  width: 600px;
+}
+
+.jboxtop {
+  background: var(--groundcolor);
+  transform: rotateX(90deg) translateZ(300px);
+  width: 400px;
+  height: 600px;
+}
+
+
+/* boxes stylings 2 */
+.jbox2 {
+  width: 200px;
+  height: 100px;
+  transform-style: preserve-3d;
+  transform:rotateX(-45deg) rotateY(-45deg);
+  position: relative;
+  border: 10px solid red;
+  bottom: 50px;
+}
+
+.jboxface2 {
+  position: absolute;
+  background: orange;
+}
+
+.jboxleft2 {
+  /* background: orange; */
+  transform: rotateY(0deg) translateZ(50px);
+  height: 120px;
+  width: 200px;
+}
+
+.jboxright2 {
+  transform: rotateY(90deg) translateZ(150px);
+  height: 120px;
+  width: 100px;
+}
+
+.jboxtop2 {
+  /* background: greenyellow; */
+  transform: rotateX(90deg) translateZ(50px);
+  width: 200px;
+  height: 100px;
+}
+
+/* falling animation */
+@keyframes falling {
+  0.0%{
+      transform: translate(0px, -400px);
+  }
+  100%{
+  }
+  80.3%{
+      transform: translate(0);
+  }
+  90.1%{
+      transform: translate(0, -20px);
+  }
+}
+
+/* part to be animated */
+.jbox2{
+  animation: falling 1s linear 0s infinite normal none;
+} 
 
