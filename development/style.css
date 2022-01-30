@@ -434,6 +434,7 @@ transform-style: preserve-3d;
     border-radius: 200px;
     bottom: 400px;
     left: -50px;
+    z-index: -2;
 }
 
 .cloud2 {
@@ -443,6 +444,7 @@ transform-style: preserve-3d;
     background-color: var(--cloud);
     border-radius: 300px;
     bottom: 400px;
+    z-index: -2;
 }
 
 .cloud3 {
@@ -472,6 +474,7 @@ transform-style: preserve-3d;
     background-color: rgb(142, 70, 25);
     bottom: 22%;
     left: 40px;
+    z-index: -1;
 }
 
 .tree-top {
@@ -480,6 +483,8 @@ transform-style: preserve-3d;
     border-radius: 100px;
     position: absolute;
     background-color: lightgreen;
+    top: 120px;
+    z-index: -1;
 }
 
 
@@ -490,6 +495,7 @@ transform-style: preserve-3d;
     background-color: rgb(142, 70, 25);
     bottom: 22%;
     left: 730px;
+    z-index: -1;
 }
 
 .tree-top2 {
@@ -499,6 +505,8 @@ transform-style: preserve-3d;
     position: absolute;
     background-color: lightgreen;
     left: 700px;
+    top: 120px;
+    z-index: -1;
 }
 
 /* truck code to be replaced */
@@ -521,7 +529,7 @@ transform-style: preserve-3d;
 }
 
 /* Add the animation: property to whichever element you want to animate */
-/* .cloud{
+.cloud{
     animation: rightToLeft  5s linear 0s infinite normal none;
 } 
 
@@ -547,7 +555,7 @@ transform-style: preserve-3d;
 
 .tree-trunk2 {
      animation: rightToLeft  4s linear 0s infinite normal none;
-} */
+}
 
 /* Copy this @keyframes block to your CSS*/
 @keyframes carBounce {
@@ -566,6 +574,6 @@ transform-style: preserve-3d;
 
 
 /* Add the animation: property to whichever element you want to animate */
-/* .car{
+.esker{
     animation: carBounce 1s linear 0s infinite normal none;
-} */
+}
