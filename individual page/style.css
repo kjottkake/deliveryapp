@@ -24,3 +24,44 @@ body {
     /* perspective function in transform property */
     transform:  rotate(45deg)
   }
+
+
+  /* boxes stylings */
+  .box {
+    width: 400px;
+    height: 400px;
+    transform-style: preserve-3d;
+    transform: translateZ(150px) rotateX(-20deg) rotateY(-45deg);
+    position: relative;
+    top: 40px;
+  }
+
+  .boxface {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+  }
+  
+  .boxfront {
+    background: #7a7a7a;
+    /* transform: rotateY(0deg) translateZ(300px); */
+    transform: rotateY(0deg) translateZ(300px);
+    height: 20px;
+    width: 400px;
+  }
+  
+  .boxright {
+    background: red;
+    /* transform: rotateY(90deg) translateZ(100px); */
+    transform: rotateY(90deg) translateZ(100px);
+    height: 20px;
+    width: 600px;
+  }
+  
+  .boxtop {
+    background: greenyellow;
+    /* transform: rotateX(90deg) translateZ(300px); */
+    transform: rotateX(90deg) translateZ(300px);
+    width: 400px;
+    height: 600px;
+  }
